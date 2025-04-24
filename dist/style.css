@@ -29,15 +29,16 @@
     height: 200px;
     object-fit: cover;
   }
+  li.active {
+    border-bottom: 1px solid rgb(38,10,59);
+    border-radius: 5px;
+  }
 
  .navbar-dark {
-    /* background-color: #1a001f !important; */
     background-color:  lightgrey !important;
-    /* background-color: #2E003E !important; */
-    /* background: linear-gradient(to right, #4B0082, #8B0000); */
+    color: rgb(38,10,59);
   }
   .navbar-dark .navbar-nav .nav-link {
-    /* color: rgb(65,12,105); */
     color: rgb(38,10,59);
   }
   .navbar-dark .navbar-nav .nav-link:hover {
@@ -106,3 +107,8 @@ footer {
   margin-top: 20px;
   font-size: 13px;
 }
+/* .hov:hover {
+  animation: fa-beat 2s infinite;
+} */
+
+
