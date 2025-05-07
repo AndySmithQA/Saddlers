@@ -13,7 +13,7 @@ End Function
 Dim sSubject, sEmail, sMailBody, sFrom, sMsg
 sFrom = Request.Form("email")
 sSubject = Sanitize(Request.Form("subject"))
-sEmail = "info@sadlersauto.co.uk"
+sEmail = "andyrobsmith@gmail.com"
 sMailBody = "<strong>Name:</strong> " & Sanitize(Request.Form("name")) & "<br>" & _
             "<strong>Email:</strong> " & Sanitize(Request.Form("email")) & "<br>" & _
             "<strong>Subject:</strong> " & sSubject & "<br><br>" & _
