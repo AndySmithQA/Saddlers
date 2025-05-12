@@ -53,7 +53,9 @@
     color: white;
     
   }
-
+.mid-row{
+  background-color: lightgrey;
+}
 .dark-link{
   color: black;
 }
@@ -131,6 +133,4 @@ footer {
 }
 /* .hov:hover {
   animation: fa-beat 2s infinite;
-} */
-
-
+} *
