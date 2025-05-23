@@ -75,6 +75,11 @@
   color: white;
 }
 
+.red-bg{
+  background-color: rgb(38,10,59);
+  color: white;
+}
+
 footer {
   background-color: lightgrey;
   color: rgb(38,10,59);
@@ -107,6 +112,10 @@ footer {
 }
 .footer-section ul li {
   margin-bottom: 8px;
+}
+.smaller-text{
+  font-size: 0.8em;
+  font-weight: 500;
 }
 .footer-section ul li a {
   color: #bbb;
