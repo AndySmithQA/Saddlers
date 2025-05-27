@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
+
+.bal {
+  font-family: 'Balthazar', sans-serif;
+  font-weight: 400;
+}
+
 .car-card {
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -30,7 +37,8 @@
     object-fit: cover;
   }
   li.active {
-    border-bottom: 1px solid rgb(38,10,59);
+    background-color: rgb(38,10,59) !important;
+    color: white !important; 
     border-radius: 5px;
   }
 
@@ -38,17 +46,38 @@
     background-color:  lightgrey !important;
     color: rgb(38,10,59);
   }
-  .navbar-dark .navbar-nav .nav-link {
+  /* .navbar-dark .navbar-nav  {
     color: rgb(38,10,59);
-  }
+  } */
   .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: white;
+    
   }
+.mid-row{
+  background-color: lightgrey;
+}
+.dark-link{
+  color: black;
+}
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2828, 10, 59, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-toggler, .collapsed {
     border-color: rgb(38,10,59);
+}
+
+.active{
+  color: white;
+}
+
+#active{
+  color: white;
+}
+
+.red-bg{
+  background-color: rgb(38,10,59);
+  color: white;
 }
 
 footer {
@@ -85,6 +114,10 @@ footer {
 .footer-section ul li {
   margin-bottom: 8px;
 }
+.smaller-text{
+  font-size: 0.8em;
+  font-weight: 500;
+}
 .footer-section ul li a {
   color: #bbb;
   text-decoration: none;
@@ -110,6 +143,4 @@ footer {
 }
 /* .hov:hover {
   animation: fa-beat 2s infinite;
-} */
-
-
+} *
